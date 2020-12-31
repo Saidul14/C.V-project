@@ -1,0 +1,165 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+body{
+background-color: bisque;
+font-family: Monospace;
+box-sizing: border-box;
+
+}
+.container{
+    width: 1000px;
+    height: 100%;
+    margin:0 auto;
+    background-color: cadetblue;
+    border:rgb(182, 228, 15) 3px solid;
+
+}
+header{
+
+}
+.cobi{
+    padding:20px;
+    float: left;
+}
+.image{
+    width:100px;
+    height:50;
+    border:3px solid green;
+    border-radius:50% ;
+}
+.had{
+    float: left;
+    padding: 35px;
+    color:whitesmoke;
+}
+.link{
+float:right;
+padding:35px;
+}
+.link p a{
+margin: 10px;
+text-decoration: none;
+font-weight:bolder;
+color:lawngreen;
+font-size: 1.2rem;
+
+}
+.link p a:hover{
+  text-decoration: underline; 
+  color:blue;
+  font-size: 1.5rem;
+}
+.clear{
+    clear:both;
+}
+
+.title{
+    font-size: 1rem;
+    text-align: center;
+    color:white;
+    padding: 5px;
+    margin-top:5px;
+    border:2px solid black;
+    background-color: skyblue;
+    border-radius: 20px;
+
+}
+.information{
+width:40%;
+height: 100%;
+float: left;
+padding:40px;
+font-size: 1rem;
+color:yellowgreen;
+}
+.name{
+width:300px;
+height: 100%;
+float: left; 
+padding:30px;
+
+
+}
+.tab{
+
+text-align: center;
+width:400px;
+}
+.name .tab {
+  width:100%;  
+}
+.tab, tr, td{
+     border-collapse: collapse;
+    border:1px solid black;
+    padding:10px;
+    width: 100%;
+    color:rgb(213, 226, 30);
+    font-size:1rem;
+}
+.tool-tip, caption, tr, th, td {
+      border-collapse: collapse;
+     border: 2px solid rgb(211, 160, 186);
+     height:40px;
+     text-align: center; 
+
+}
+td{
+    width:auto
+}
+caption{
+    font-size:1.2rem ;
+    color: rgb(255,174, 0);
+    padding-top:10px;
+    font-weight: bold;
+} 
+.working-head{
+    margin-top: 15px;
+    width: 100%;
+    
+} 
+.work{
+   padding:10px; 
+   width:20%;
+  
+   height:100%;
+   float: left;
+}
+
+.working-main{
+    padding:5px;
+    width:40%;
+    float: left;
+    height:100%;
+}
+.working-foter{
+    padding:5px;
+    width:40%;
+    float: left;
+    height:100%;
+}
+.footer-container{
+    background-color: black;
+    text-align:center ;
+    padding:20px;
+    
+}
+.footer-container a{
+    font-size: 1rem;
+    padding:10px;
+    text-decoration: none;
+    color:white ;
+}
+.footer-container a:hover{
+   
+    text-decoration: underline;
+    color:red ;
+}
+.footer-container p{
+    color:tomato;
+    margin-top:10px;
+}
+.icon{
+    font-size: 1.5rem;
+}
